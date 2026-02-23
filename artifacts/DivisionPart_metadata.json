@@ -1,0 +1,108 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "number1",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "number2",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "result",
+						"type": "uint256"
+					}
+				],
+				"name": "Division",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num1_",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "num2_",
+						"type": "uint256"
+					}
+				],
+				"name": "division",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "result_",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "result",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"DivisionPart.sol": "DivisionPart"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"DivisionPart.sol": {
+			"keccak256": "0x26cc4774f5c22a0340c6b32cae3cd01fd9ae928102c8f1e3b7d19ca3e8a7d797",
+			"license": "LGPL-3.0-only",
+			"urls": [
+				"bzz-raw://a8918adab9b686b72b109dcc62477f6cf032918cacccc3e5903ecf431b472779",
+				"dweb:/ipfs/QmRwWgi25icpzEuwN71jbVKF4ZgyFK5Lm6oT73ZNGWRwBT"
+			]
+		}
+	},
+	"version": 1
+}
